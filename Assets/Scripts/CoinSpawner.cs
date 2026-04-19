@@ -9,12 +9,8 @@ public class CoinSpawner : MonoBehaviour
 
     public float spawnTime = 5f;
     private float timer;
-
-    void Start()
-    {
-        
-    }
-    void FixedUpdate()
+    
+    void Update()
     {
         timer += Time.deltaTime;
 

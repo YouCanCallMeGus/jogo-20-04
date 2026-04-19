@@ -38,7 +38,10 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
-        if (player == null) return;
+        if (player == null)
+        {
+            return;
+        }
         
         float randomX = Random.Range(minX, maxX);
         float randomY = Random.Range(minY, maxY);

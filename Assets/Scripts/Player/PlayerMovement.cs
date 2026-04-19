@@ -15,7 +15,6 @@ public class PlayerMovement : MonoBehaviour
     
     public static Vector2 movement;
     public float speed;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         LastDashTime = 0f;
@@ -23,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
         player = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");

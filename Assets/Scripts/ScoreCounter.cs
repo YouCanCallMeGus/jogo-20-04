@@ -6,7 +6,6 @@ public class ScoreCounter : MonoBehaviour
     public static int CollectablesEarned;
     
     public static int FinalScore;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         EnemiesKilled = 0;
